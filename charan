@@ -1,0 +1,9 @@
+You’re getting:
+
+! [rejected] master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/charanpingula/git-intro.git'
+
+
+This means your local repository and remote repository (on GitHub) are out of sync — GitHub has some commits (like a README or .gitignore) that you don’t have locally.
+
+Git prevents you from overwriting those remote changes accidentally.
